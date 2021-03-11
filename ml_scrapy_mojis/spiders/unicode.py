@@ -146,4 +146,4 @@ class UnicodeSpider(scrapy.Spider):
             # Write the bytes to the disk.
             with open(filename, 'wb') as outfile:
                 outfile.write(content)
-        
+                
